@@ -1,0 +1,99 @@
+{
+    "package": "ICOWatchList",
+    "tagline": "ICOWatchList API",
+    "description": "Discover the best ICO (initial coin offering) opportunities. Review this list daily to stay on top of the exponentially growing cryptocurrency & blockchain ecosystem. The projects on the ICO list are scanned and updated daily, to help crypto investors make better investment decisions.",
+    "image": "https:\/\/logo.clearbit.com\/\/icowatchlist.com",
+    "repo": "https:\/\/github.com\/RapidSoftwareSolutions\/Marketplace-ICOWatchList-Package",
+    "keywords": [
+        "API",
+        "ICO",
+        "Cryptocurrency",
+        "blockchain"
+    ],
+    "accounts": {
+        "domain": "icowatchlist.com",
+        "credentials": []
+    },
+    "blocks": [
+        {
+            "name": "getAllICOs",
+            "description": "Get all ICOs.To grab data about all the live, upcoming & finished ICOs.Limits: ICO Watch List API allow up to 1 request per second. We recommend to store the data feed on your own server if you expect large volumes of traffic.",
+            "args": [],
+            "vendorRequest": {
+                "url": "https:\/\/api.icowatchlist.com\/public\/v1\/",
+                "method": "get",
+                "requestParameters": []
+            },
+            "callbacks": [
+                {
+                    "name": "error",
+                    "info": "Error"
+                },
+                {
+                    "name": "success",
+                    "info": "Success"
+                }
+            ]
+        },
+        {
+            "name": "getOnlyLiveICOs",
+            "description": "Get only live ICOs.To grab data about all the live, upcoming & finished ICOs.Limits: ICO Watch List API allow up to 1 request per second. We recommend to store the data feed on your own server if you expect large volumes of traffic.",
+            "args": [],
+            "vendorRequest": {
+                "url": "https:\/\/api.icowatchlist.com\/public\/v1\/live",
+                "method": "get",
+                "requestParameters": []
+            },
+            "callbacks": [
+                {
+                    "name": "error",
+                    "info": "Error"
+                },
+                {
+                    "name": "success",
+                    "info": "Success"
+                }
+            ]
+        },
+        {
+            "name": "getOnlyUpcomingICOs",
+            "description": "Get only upcoming ICOs.To grab data about all the live, upcoming & finished ICOs.Limits: ICO Watch List API allow up to 1 request per second. We recommend to store the data feed on your own server if you expect large volumes of traffic.",
+            "args": [],
+            "vendorRequest": {
+                "url": "https:\/\/api.icowatchlist.com\/public\/v1\/live",
+                "method": "get",
+                "requestParameters": []
+            },
+            "callbacks": [
+                {
+                    "name": "error",
+                    "info": "Error"
+                },
+                {
+                    "name": "success",
+                    "info": "Success"
+                }
+            ]
+        },
+        {
+            "name": "getOnlyFinishedICOs",
+            "description": "Get only finished ICOs.To grab data about all the live, upcoming & finished ICOs.Limits: ICO Watch List API allow up to 1 request per second. We recommend to store the data feed on your own server if you expect large volumes of traffic.",
+            "args": [],
+            "vendorRequest": {
+                "url": "https:\/\/api.icowatchlist.com\/public\/v1\/live",
+                "method": "get",
+                "requestParameters": []
+            },
+            "callbacks": [
+                {
+                    "name": "error",
+                    "info": "Error"
+                },
+                {
+                    "name": "success",
+                    "info": "Success"
+                }
+            ]
+        }
+    ]
+}
