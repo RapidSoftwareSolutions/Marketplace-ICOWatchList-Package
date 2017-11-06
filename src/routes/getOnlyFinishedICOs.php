@@ -22,7 +22,7 @@ $app->post('/api/ICOWatchList/getOnlyFinishedICOs', function ($request, $respons
     
 
     $client = $this->httpClient;
-    $query_str = "https://api.icowatchlist.com/public/v1/live";
+    $query_str = "https://api.icowatchlist.com/public/v1/finished";
 
     
 

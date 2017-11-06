@@ -60,7 +60,7 @@
             "description": "Get only upcoming ICOs.To grab data about all the live, upcoming & finished ICOs.Limits: ICO Watch List API allow up to 1 request per second. We recommend to store the data feed on your own server if you expect large volumes of traffic.",
             "args": [],
             "vendorRequest": {
-                "url": "https:\/\/api.icowatchlist.com\/public\/v1\/live",
+                "url": "https://api.icowatchlist.com/public/v1/upcoming",
                 "method": "get",
                 "requestParameters": []
             },
@@ -80,7 +80,7 @@
             "description": "Get only finished ICOs.To grab data about all the live, upcoming & finished ICOs.Limits: ICO Watch List API allow up to 1 request per second. We recommend to store the data feed on your own server if you expect large volumes of traffic.",
             "args": [],
             "vendorRequest": {
-                "url": "https:\/\/api.icowatchlist.com\/public\/v1\/live",
+                "url": "https://api.icowatchlist.com/public/v1/finished",
                 "method": "get",
                 "requestParameters": []
             },
